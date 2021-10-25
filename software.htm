@@ -1,0 +1,141 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Untitled Document</title>
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_reloadPage(init) {  //reloads the window if Nav4 resized
+  if (init==true) with (navigator) {if ((appName=="Netscape")&&(parseInt(appVersion)==4)) {
+    document.MM_pgW=innerWidth; document.MM_pgH=innerHeight; onresize=MM_reloadPage; }}
+  else if (innerWidth!=document.MM_pgW || innerHeight!=document.MM_pgH) location.reload();
+}
+MM_reloadPage(true);
+//-->
+</script>
+<style type="text/css">
+<!--
+.style1 {font-size: 36px}
+.style5 {font-weight: bold}
+.style6 {font-family: Arial, Helvetica, sans-serif}
+.style9 {color: #0000FF}
+.style10 {font-style: italic; color: #0000CC;}
+body {
+	background-color: #FFFFFF;
+}
+-->
+</style>
+</head>
+
+<body>
+<div id="Layer1" class="style5" style="position:absolute; left:19px; top:63px; width:1281px; height:89px; z-index:1">
+  <div align="center" class="style1">
+
+<script>
+
+/*
+RAINBOW TEXT Script by Matt Hedgecoe (c) 2002
+Featured on JavaScript Kit
+For this script, visit http://www.javascriptkit.com
+*/
+
+// ********** MAKE YOUR CHANGES HERE
+
+var text="SOFTWARE" // YOUR TEXT
+var speed=80 // SPEED OF FADE
+
+// ********** LEAVE THE NEXT BIT ALONE!
+
+
+if (document.all||document.getElementById){
+document.write('<span id="highlight">' + text + '</span>')
+var storetext=document.getElementById? document.getElementById("highlight") : document.all.highlight
+}
+else
+document.write(text)
+var hex=new Array("00","14","28","3C","50","64","78","8C","A0","B4","C8","DC","F0")
+var r=1
+var g=1
+var b=1
+var seq=1
+function changetext(){
+rainbow="#"+hex[r]+hex[g]+hex[b]
+storetext.style.color=rainbow
+}
+function change(){
+if (seq==6){
+b--
+if (b==0)
+seq=1
+}
+if (seq==5){
+r++
+if (r==12)
+seq=6
+}
+if (seq==4){
+g--
+if (g==0)
+seq=5
+}
+if (seq==3){
+b++
+if (b==12)
+seq=4
+}
+if (seq==2){
+r--
+if (r==0)
+seq=3
+}
+if (seq==1){
+g++
+if (g==12)
+seq=2
+}
+changetext()
+}
+function starteffect(){
+if (document.all||document.getElementById)
+flash=setInterval("change()",speed)
+}
+starteffect()
+</script>
+
+<p align="center"><br />
+  </p></div>
+</div>
+<div id="Layer2" style="position:absolute; left:29px; top:158px; width:1292px; height:360px; z-index:2"> 
+  <p><span class="style6">Software<span style="color: rgb(64, 64, 64); font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;es un t&eacute;rmino inform&aacute;tico que hace referencia a un programa o</span>&nbsp;conjunto de programas&nbsp;<span style="color: rgb(64, 64, 64); font-size: 16px; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">de c&oacute;mputo, as&iacute; como</span>&nbsp;datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema inform&aacute;tic</span><em><span class="style6">o.</span></em></p>
+  <h2 class="style10" style="box-sizing: border-box; vertical-align: top; margin: 0px; padding: 1em 0px 0.5em; outline: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; font-size: 1.5em; color: rgb(163, 67, 64); font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Tipos de&nbsp;software</h2>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">De forma gen&eacute;rica se pueden distinguir varios tipos de&nbsp;<em style="box-sizing: border-box;">software</em>&nbsp;en funci&oacute;n del uso o utilidad:</p>
+  <h3 style="box-sizing: border-box; vertical-align: top; margin: 0px; padding: 1em 0px 0.5em; outline: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; font-size: 1.3125rem; color: #0000FF; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Software&nbsp;de sistema</h3>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Es el programa responsable de la ejecuci&oacute;n de todas las aplicaciones necesarias para que un sistema opere correctamente. Suele confundirse con el sistema operativo pero va m&aacute;s all&aacute;, ya que tambi&eacute;n incluye las herramientas de optimizaci&oacute;n, los controladores de dispositivo y los servidores, entre otros componentes.</p>
+  <h3 style="box-sizing: border-box; vertical-align: top; margin: 0px; padding: 1em 0px 0.5em; outline: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; font-size: 1.3125rem; color: rgb(64, 64, 64); font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;"><span style="color: #0000FF">Software&nbsp;de programaci&oacute;</span><span class="style9">n</span></h3>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Son todas las herramientas que permiten el desarrollo de nuevo&nbsp;<em style="box-sizing: border-box;">software</em>. Por ello, no suelen ser utilizadas por el usuario final sino por los programadores. Incluye, por mencionar los m&aacute;s importantes, los siguientes:</p>
+  <ul style="box-sizing: border-box; padding: 0px 0px 0px 25px; margin: -10px 0px 25px; width: 605px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">
+    <li style="box-sizing: border-box; padding: 0px; margin: 8px 0px;">Compiladores&nbsp;(programas que analizan y ejecutan otros programas).</li>
+    <li style="box-sizing: border-box; padding: 0px; margin: 8px 0px;">Int&eacute;rpretes&nbsp;(<em style="box-sizing: border-box;">software</em>&nbsp;que "traduce" los diferentes lenguajes de programaci&oacute;n).</li>
+    <li style="box-sizing: border-box; padding: 0px; margin: 8px 0px;">Editores de texto&nbsp;(crean y modifican archivos de texto, lenguaje de programaci&oacute;n o c&oacute;digo fuente).</li>
+  </ul>
+  <h3 style="box-sizing: border-box; vertical-align: top; margin: 0px; padding: 1em 0px 0.5em; outline: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; font-size: 1.3125rem; color: #0000FF; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Software&nbsp;de aplicaci&oacute;n</h3>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Un&nbsp;<em style="box-sizing: border-box;">software</em>&nbsp;de aplicaci&oacute;n es un programa dise&ntilde;ado para facilitar algunas tareas espec&iacute;ficas para cualquier medio inform&aacute;tico, ya sea en computadores,&nbsp;<em style="box-sizing: border-box;">tablets</em>&nbsp;o celulares.</p>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Los videojuegos, los programas de dise&ntilde;o asistido (como CAD), el&nbsp;<em style="box-sizing: border-box;">software</em>&nbsp;utilizado en las telecomunicaciones, las aplicaciones de productividad empresarial o educativa son algunos ejemplos de este tipo de programas.</p>
+  <h3 style="box-sizing: border-box; vertical-align: top; margin: 0px; padding: 1em 0px 0.5em; outline: 0px; border: 0px; font-family: Arial, Helvetica, sans-serif; line-height: 1.4; font-size: 1.3125rem; color: #0000FF; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Software&nbsp;malicioso o malintencionado</h3>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">Utilizado tambi&eacute;n en su forma original en ingl&eacute;s&nbsp;<em style="box-sizing: border-box;">malicious software</em>&nbsp;o simplemente&nbsp;<em style="box-sizing: border-box;">malware,</em>&nbsp;es el que se crea con fines il&iacute;citos como obtener informaci&oacute;n privada del usuario o da&ntilde;ar el sistema. </p>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p>
+  <p style="box-sizing: border-box; vertical-align: top; outline: 0px; border: 0px; margin: 0px 0px 20px; padding: 0px; font-size: 16px; color: rgb(64, 64, 64); font-family: Arial, Helvetica, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;">&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<div id="Layer3" style="position:absolute; left:44px; top:951px; width:269px; height:70px; z-index:3">
+  <embed src="../../Downloads/cancion%20del%20software%20libre_48k.mp3" width="270" height="67"></embed>
+</div>
+<div id="Layer4" style="position:absolute; left:777px; top:558px; width:182px; height:107px; z-index:4"><img src="descarga%20(1).jfif" width="210" height="107"></div>
+<div id="Layer5" style="position:absolute; left:402px; top:910px; width:353px; height:90px; z-index:5"><img src="descarga%20(4).jfif" width="318" height="159"></div>
+<div id="Layer6" style="position:absolute; left:931px; top:952px; width:239px; height:104px; z-index:6">
+  <embed src="&#191;Qu&#233;%20es%20el%20Software_%20Introducci&#243;n._360P.mp4" width="237" height="98"></embed>
+</div>
+</body>
+</html>
